@@ -1,0 +1,35 @@
+.header-top {
+  position: relative;
+  position:fixed;
+}
+
+.triangle-top {
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-right: 2000px solid #eb7070;
+  border-bottom: 200px solid transparent;
+  padding: 20px 0;
+}
+
+
+.triangle-right {
+  border-top: 70px solid transparent;
+  border-left: 700px solid #202060;
+  border-bottom: 150px solid transparent;
+  position: absolute;
+  top: 40px;
+}
+
+.rectangle {
+  height: 60vh;
+  width: 40vw;
+  background-color: #dadada;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 300px;
+
+
+
+
+  }

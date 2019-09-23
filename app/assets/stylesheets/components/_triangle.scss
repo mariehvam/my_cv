@@ -1,9 +1,7 @@
 .header-top {
-  position: relative;
-  position:fixed;
+  position: fixed;
 }
-
-.triangle-top {
+.pink-triangle-top {
   width: 0;
   height: 0;
   border-top: 0px solid transparent;
@@ -12,24 +10,20 @@
   padding: 20px 0;
 }
 
-
-.triangle-right {
+.blue-triangle-right {
   border-top: 70px solid transparent;
-  border-left: 700px solid #202060;
-  border-bottom: 150px solid transparent;
+  border-left: 705px solid #202060;
+  border-bottom: 200px solid transparent;
   position: absolute;
   top: 40px;
 }
 
-.rectangle {
-  height: 60vh;
+.grey-rectangle {
+  height: 90vh;
   width: 40vw;
   background-color: #dadada;
-  transform: rotate(90deg);
   position: absolute;
-  top: 300px;
-
-
-
-
+  top: 55%;
+  left: -7%;
+  z-index: 60;
   }

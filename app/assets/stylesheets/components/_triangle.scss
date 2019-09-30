@@ -8,22 +8,22 @@
   border-right: 2000px solid #eb7070;
   border-bottom: 200px solid transparent;
   padding: 20px 0;
+  position: absolute;
 }
 
 .blue-triangle-right {
+  width: 0;
+  height: 0;
   border-top: 70px solid transparent;
   border-left: 705px solid #202060;
-  border-bottom: 200px solid transparent;
+  border-bottom: 210px solid transparent;
   position: absolute;
   top: 40px;
 }
 
 .grey-rectangle {
-  height: 90vh;
-  width: 40vw;
+  height: 200vh;
+  width: 30vw;
   background-color: #dadada;
-  position: absolute;
-  top: 55%;
-  left: -7%;
-  z-index: 60;
+  display: flex;
   }
